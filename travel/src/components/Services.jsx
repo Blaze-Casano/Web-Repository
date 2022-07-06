@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components'; 
 import service1 from "../assets/service1.png";
 import service2 from "../assets/service2.png";
 import service3 from "../assets/service3.png";
@@ -10,7 +10,7 @@ export default function Services() {
   const data = [
     {
       icon: service1,
-      title: "가성비",
+      title: "Used styled-components",
       subTitle:
         "Pay through our application and save thousands and get amazing rewards.",
     },

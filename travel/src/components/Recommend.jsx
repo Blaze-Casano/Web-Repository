@@ -61,6 +61,7 @@ export default function Recommend() {
     "The Package Holiday",
     "The Group Tour",
     "Long Term Slow Travel",
+    "Test of Selection"
   ];
 
   const [active, setActive] = useState(1);
@@ -75,7 +76,11 @@ export default function Recommend() {
             return (
               <li
                 className={active === index + 1 ? "active" : ""}
-                onClick={() => setActive(index + 1)}
+                onClick={() => {setActive(index + 1); 
+                  //console.log(index +1);
+                  //console.log(active);
+                  }} //debug
+                //onMouseOver={() => {console.log(active)}} //debug
               >
                 {pkg}
               </li>
